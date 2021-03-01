@@ -1,0 +1,89 @@
+.JobPageMain {
+    background-color: lightpink;
+    height: 100%;
+    padding: 10px;
+    width: 100%;
+    margin: auto;
+    align-content: center;
+    align-items: center;
+  }
+  
+  .JobPageMain__jobTitle {
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .JobPageMain__companyName {
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .JobPageMain__interview {
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .JobPageMain__postedUrl {
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .JobPageMain__jobRating {
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .JobPageMain__content {
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  
+  
+  .jobInfo {
+    margin: auto;
+    align-content: center;
+    align-items: center;
+  }
+  
+  .JobPageMain__content {
+    color: #3a3939;
+    max-width: 380px;
+  }
+  
+  .JobPageMain__jobTitle {
+    color: #3a3939;
+    max-width: 380px;
+    padding-top: 12px;
+  }
+  
+  .JobPageMain__companyName {
+    color: #3a3939;
+    max-width: 380px;
+    padding-top: 12px;
+  }
+  
+  .JobPageMain__interview {
+    color: #3a3939;
+    max-width: 380px;
+    padding-top: 12px;
+  }
+  
+  .JobPageMain__jobRating {
+    color: #3a3939;
+    max-width: 380px;
+    padding-top: 12px;
+  }
+  
+  .JobPageMain__postedUrl {
+    color: #3a3939;
+    max-width: 380px;
+    padding-top: 12px;
+  }
+  

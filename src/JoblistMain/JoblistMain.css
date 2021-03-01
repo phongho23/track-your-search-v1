@@ -1,0 +1,20 @@
+
+.JoblistMain ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .JoblistMain__button-container {
+    max-width: 380px;
+    margin: 0 10px;
+  }
+  
+  .JoblistMain__add-job-button {
+    margin: 0 auto 20px;
+  }
+  .JoblistMain__add-job-button:hover {
+    background-color:purple;
+    color: white;
+  }
+  

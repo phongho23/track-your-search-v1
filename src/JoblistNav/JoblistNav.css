@@ -1,0 +1,45 @@
+.JoblistNav__list {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+  }
+  
+  .JoblistNav__button-wrapper {
+    max-width: 380px;
+    margin: 0 10px;
+  }
+  
+  .JoblistNav__add-week-button {
+    margin: 0 auto 20px;
+  }
+  .JoblistNav__add-week-button:hover {
+    background-color: blue;
+    color: white;
+  }
+  
+  .JoblistNav__week-link {
+    background-color: lightpink;
+    color: black;
+    display: block;
+    font-family: var(--custom-font);
+    font-size: 20px;
+    margin: 2px 10px 8px auto;
+    max-width: 300px;
+    padding: 8px 8px;
+    text-decoration: none;
+    text-align: center;
+  }
+  .JoblistNav__week-link:hover {
+    color: yellow;
+    cursor: pointer;
+  }
+  .JoblistNav__week-link.active {
+    background-color: blueviolet;
+  }
+  
+  .JoblistNav__num-jobopps {
+    color: #adadad;
+    display: block;
+    float: right;
+    font-size: 10px;
+  }

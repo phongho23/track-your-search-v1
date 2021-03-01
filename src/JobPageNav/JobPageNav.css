@@ -1,0 +1,23 @@
+.JobPageNav__back-button-wrapper {
+    max-width: 380px;
+    margin: 0 10px;
+  }
+  
+  .JobPageNav__back-button {
+    margin: 0 auto 20px;
+  }
+  
+  .JobPageNav__back-button:hover {
+    background-color: #553D67;
+  }
+  
+  .JobPageNav__week-name {
+  color: #242582;
+  font-family: var(--custom-font);
+  padding-left: 5%;
+  padding-right: 10%;
+  padding-top: 5px;
+  display: flex;
+  padding: 5px 5px;
+  font-size: 32px;
+  }
