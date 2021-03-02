@@ -106,19 +106,21 @@ class App extends Component {
         return (
             <div className="App">
                 <header className="App__header">
-                    <a><h1>
-                        <Link to="/home">TrackYourSearch</Link>{' '}
-                    </h1></a>
-                    <a><h2>
+                    <h1>
+                        <Link to="/home">TrackYourSearch</Link>{" "}
+                    </h1>
+                    <nav>
+                        <h2>
                         <Link to="/home">Home</Link>
-                    </h2></a>
-                    <a><h2>
+                        </h2>
+                        <h2>
                         <Link to="/home/add-week">Add Week</Link>
-                    </h2></a>
-                    <a><h2>
+                        </h2>
+                        <h2>
                         <Link to="/home/add-job">Add Job</Link>
-                    </h2></a>
-                </header>
+                        </h2>
+                    </nav>
+                    </header>
 
                 <nav className="App__landing">
                     {this.renderAppLanding()}
