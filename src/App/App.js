@@ -5,6 +5,8 @@ import JobPageNav from '../JobPageNav/JobPageNav';
 import JoblistMain from '../JoblistMain/JoblistMain';
 import JobPageMain from '../JobPageMain/JobPageMain';
 import landingPage from '../landingPage/landingPage';
+import AddWeek from '../AddWeek/AddWeek';
+import AddJob from '../AddJob/AddJob';
 import dummyStore from '../dummy-store';
 import {getJoboppsForWeek, findJobitem, findWeek} from '../jobopps-helpers';
 import './App.css'; 
@@ -48,8 +50,8 @@ class App extends Component {
                     }}
                 />
 
-                <Route path="/home/add-week" component={JobPageNav} />
-                <Route path="/home/add-job" component={JobPageNav} />
+                <Route path="/home/add-week" component={AddWeek} />
+                <Route path="/home/add-job" component={AddJob} />
             </>
         );
     }

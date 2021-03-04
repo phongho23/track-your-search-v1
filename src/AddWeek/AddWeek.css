@@ -1,0 +1,21 @@
+.AddWeek {
+    height: 200px;
+    position: relative;
+    /* border: 3px solid green; */
+    color: black;
+    text-align: center;
+  }
+  
+.AddWeek h2 {
+    text-align: center;
+  }
+
+.AddWeekItems {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+  }
+  

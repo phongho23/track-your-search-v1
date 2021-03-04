@@ -1,0 +1,49 @@
+.AppForm-form {
+    background-color: lightpink;
+    color: white;
+    padding: 16px;
+    max-width: 332px;
+  }
+  
+  .AppForm-form label {
+    display: block;
+    font-size: 16px;
+    padding-bottom: 8px;
+  }
+  
+  .AppForm-form input,
+  .AppForm-form textarea,
+  .AppForm-form select {
+    font-size: 14px;
+    padding: 8px;
+    width: 300px;
+  }
+  
+  .AppForm-form select {
+    height: 33px;
+  }
+  
+  .AppForm-form > .field {
+    margin-bottom: 16px;
+  }
+  .AppForm-form > .buttons {
+    margin-top: 26px;
+  }
+  
+  .AppForm-form button {
+    background-color: blue;
+    border-radius: 4px;
+    border: 0;
+    color: white;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .AppForm-form button[type="submit"]:hover {
+    background-color: lightblue;
+    color: white;
+  }
+  

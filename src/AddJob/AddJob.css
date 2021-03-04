@@ -1,0 +1,22 @@
+.AddJob {
+    height: 500px;
+    position: relative;
+    /* border: 3px solid green; */
+    color: black;
+    text-align: center;
+    margin: 10px;
+  }
+  
+.AddJob h2 {
+    text-align: center;
+  }
+
+.AddJobItems {
+    font-weight: bold;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+  }
