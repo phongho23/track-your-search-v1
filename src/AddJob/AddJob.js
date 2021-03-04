@@ -73,11 +73,27 @@ export default class AddJob extends Component {
             <br />
             <select id='job-rating-select' name='job-rating-selected'>
               <option value={null}>...</option>
-              {weeks.map(week =>
-                <option key={week.id} value={week.id}>
-                  {week.name}
+
+                <option value={1}>
+                  1
                 </option>
-              )}
+
+                <option value={2}>
+                  2
+                </option>
+
+                <option value={3}>
+                  3
+                </option>
+
+                <option value={4}>
+                  4
+                </option>
+
+                <option value={5}>
+                  5
+                </option>
+
             </select>
           </div>
 
