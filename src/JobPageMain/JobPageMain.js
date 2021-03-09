@@ -1,56 +1,70 @@
-
-
 import React from 'react'
-import Jobitem from '../Jobitem/Jobitem'
+import Job from '../Job/Job'
+import ApiContext from '../ApiContext'
+import { findJob } from '../jobs-helpers'
 import './JobPageMain.css'
 
-export default function JobPageMain(props) {
+export default class JobPageMain extends React.Component {
+  static defaultProps = {
+    match: {
+      params: {}
+    }
+  }
+
+  static contextType = ApiContext
+
+  handleDeleteJob = jobId => {
+    this.props.history.push(`/`)
+  }
+
+  render() {
+
+    const { jobs=[] } = this.context
+    const { jobId } = this.props.match.params
+    const job = findJob(jobs, jobId) || { content: '' }
+
   return (
     <section className='JobPageMain'>
-      <Jobitem
-        id={props.job.id}
-        name={props.job.name}
-        modified={props.job.modified}
+      <Job
+        id={job.id}
+        jobtitle={job.jobtitle}
+        modified={job.modified}
+        onDeleteJob={this.handleDeleteJob}
       />
       <div className='jobInfo'>
-      <div className='JobPageMain__jobTitle'>
+      <div className='JobPageMain__jobtitle'>
         <b><p>Job Title:</p></b>
-        {props.job.jobTitle}
+        {job.jobtitle}
       </div>
 
-      <div className='JobPageMain__companyName'>
+      <div className='JobPageMain__companyname'>
         <b><p>Company Name:</p></b>
-        {props.job.companyName}
+        {job.companyname}
       </div>
 
-      <div className='JobPageMain__postedUrl'>
+      <div className='JobPageMain__postedurl'>
         <b><p>Job Listing URL/Info:</p></b>
-        {props.job.postedUrl}
+        {job.postedurl}
       </div>
 
       <div className='JobPageMain__interview'>
         <b><p>Interview Details:</p></b>
-        {props.job.interview}
+        {job.interview}
       </div>
 
-      <div className='JobPageMain__jobRating'>
+      <div className='JobPageMain__jobrating'>
         <b><p>Opportunity Rating:</p></b>
-        {props.job.jobRating}
+        {job.jobrating}
       </div>
 
       <div className='JobPageMain__content'>
         <b><p>Job Description:</p></b>
-        {props.job.content.split(/\n \r|\n/).map((para, i) =>
+        {job.content.split(/\n \r|\n/).map((para, i) =>
           <p key={i}>{para}</p>
         )}
       </div>
       </div>
     </section>
-  )
-}
-
-JobPageMain.defaultProps = {
-  job: {
-    content: '',
+    )
   }
 }

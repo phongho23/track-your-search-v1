@@ -2,10 +2,17 @@ import React from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import CircleButton from '../CircleButton/CircleButton'
-import { countJoboppsForWeek } from '../jobopps-helpers'
+import ApiContext from '../ApiContext'
+import { countJobsForWeek } from '../jobs-helpers'
 import './JoblistNav.css'
 
-export default function JoblistNav(props) {
+export default class JoblistNav extends React.Component {
+  static contextType = ApiContext;
+  
+  render() {
+
+    const { jobs=[], weeks=[] } = this.context
+
   return (
     <div className='JoblistNav'>
       <div className='JoblistNav__button-wrapper'>
@@ -20,13 +27,16 @@ export default function JoblistNav(props) {
         </CircleButton>
       </div>
       <ul className='JoblistNav__list'>
-        {props.jobweeks.map(week =>
-          <li style={{display: "inline-block"}} key={week.id}>
+        {weeks.map(week =>
+          <li style={{display: "inline-block"}} 
+          key={week.id}
+          >
             <NavLink
               className='JoblistNav__week-link'
-              to={`/home/week/${week.id}`}>
-              <span className='JoblistNav__num-jobopps'>
-                {countJoboppsForWeek(props.jobopps, week.id)}
+              to={`/home/week/${week.id}`}
+              >
+              <span className='JoblistNav__num-jobs'>
+                {countJobsForWeek(jobs, week.id)}
               </span>
               {week.name}
             </NavLink>
@@ -34,9 +44,6 @@ export default function JoblistNav(props) {
         )}
       </ul>
     </div>
-  )
-}
-
-JoblistNav.defaultProps = {
-  jobweeks: []
+    )
+  }
 }
