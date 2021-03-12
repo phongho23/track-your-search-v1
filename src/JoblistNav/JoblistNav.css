@@ -18,8 +18,8 @@
   }
   
   .JoblistNav__week-link {
-    background-color: lightpink;
-    color: black;
+    background-color: #505256;
+    color: white;
     display: block;
     font-family: var(--custom-font);
     font-size: 20px;
@@ -34,11 +34,11 @@
     cursor: pointer;
   }
   .JoblistNav__week-link.active {
-    background-color: blueviolet;
+    background-color: #282828;
   }
   
   .JoblistNav__num-jobs {
-    color: #adadad;
+    color: white;
     display: block;
     float: right;
     font-size: 10px;

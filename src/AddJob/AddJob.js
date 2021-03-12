@@ -51,7 +51,7 @@ export default class AddJob extends Component {
     const { weeks=[] } = this.context
     return (
       <section className='AddJob'>
-        <h2>Add a Job</h2>
+
         <AppForm onSubmit={this.handleSubmit} className='AddJobItems'>
           <div className='field'>
             <label htmlFor='job-name-input'>

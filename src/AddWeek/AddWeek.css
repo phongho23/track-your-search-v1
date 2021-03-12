@@ -2,8 +2,14 @@
     height: 200px;
     position: relative;
     /* border: 3px solid green; */
-    color: black;
+    color: white;
+    margin: auto;
+    align-content: center;
+    align-items: center;
     text-align: center;
+    background-color: #252525;
+    width: 70%;
+    border-radius: 10px;
   }
   
 .AddWeek h2 {

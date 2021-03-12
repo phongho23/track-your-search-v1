@@ -1,5 +1,5 @@
 .JobPageMain {
-    background-color: lightpink;
+    /* background-color: #240090; */
     height: 100%;
     padding: 10px;
     width: 100%;
@@ -44,45 +44,46 @@
     justify-content: center;
   }
   
-  
-  
   .jobInfo {
     margin: auto;
     align-content: center;
     align-items: center;
+    background-color: #252525;
+    width: 70%;
+    border-radius: 10px;
   }
   
   .JobPageMain__content {
-    color: #3a3939;
+    color: white;
     max-width: 380px;
   }
   
   .JobPageMain__jobtitle {
-    color: #3a3939;
+    color: white;
     max-width: 380px;
     padding-top: 12px;
   }
   
   .JobPageMain__companyname {
-    color: #3a3939;
+    color: white;
     max-width: 380px;
     padding-top: 12px;
   }
   
   .JobPageMain__interview {
-    color: #3a3939;
+    color: white;
     max-width: 380px;
     padding-top: 12px;
   }
   
   .JobPageMain__jobrating {
-    color: #3a3939;
+    color: white;
     max-width: 380px;
     padding-top: 12px;
   }
   
   .JobPageMain__postedurl {
-    color: #3a3939;
+    color: white;
     max-width: 380px;
     padding-top: 12px;
   }

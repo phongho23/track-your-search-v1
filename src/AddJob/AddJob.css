@@ -2,9 +2,15 @@
     height: 500px;
     position: relative;
     /* border: 3px solid green; */
-    color: black;
+    color: white;
     text-align: center;
-    margin: 10px;
+    margin: auto;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #252525;
+    width: 70%;
+    border-radius: 10px;
   }
   
 .AddJob h2 {
@@ -20,3 +26,9 @@
     transform: translate(-50%, -50%);
     justify-content: center;
   }
+
+
+
+
+
+

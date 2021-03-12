@@ -32,7 +32,7 @@ export default class JobPageMain extends React.Component {
         onDeleteJob={this.handleDeleteJob}
       />
       <div className='jobInfo'>
-      <div className='JobPageMain__jobtitle'>
+      <div className='JobPageMain__jobtitle' >
         <b><p>Job Title:</p></b>
         {job.jobtitle}
       </div>

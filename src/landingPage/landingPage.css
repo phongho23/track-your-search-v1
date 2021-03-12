@@ -1,8 +1,9 @@
 .landing-page {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: black;
+    color: white;
     font-weight: bold;
-    background-color: lightpink;
+    background-color: #252525;
+    border-radius: 10px;
     margin: auto ;
     width: 50%;
     padding: 10px;
@@ -10,8 +11,10 @@
 }
 
 .landingPageButton {
-        color: black;
-        background-color: rgb(0, 236, 138);
+        color: white;
+        background-color: #252525;
+        border:cornsilk;
+        border-width: 100px;
         margin: auto;
         align-content: center;
         align-items: center;

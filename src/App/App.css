@@ -4,16 +4,18 @@
     sans-serif;
   display: block;
   min-height: 100vh;
-  background-color: lightpink;
+  background-color: #190061;
 }
+
 .App__nav {
-  background-color: lightblue;
+  /* mid section */
+  background-color: #190061;
   color: lightgray;
   overflow: auto;
 }
 .App__header {
-  background-color: blue;
-  color: #bdbdbd;
+  background-color: red;
+  color: blue;
   font-family: var(--custom-font);
   /* padding-right: 10%; */
   padding-top: 32px;
@@ -35,7 +37,8 @@
   padding: 5px 10px 5px 10px;
 }
 .App__main {
-  background-color: lightpink;
+  background-color: #240090;
+  /* bottom */
   height: calc(100vh - 120px);
   overflow: auto;
 }
