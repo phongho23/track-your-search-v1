@@ -8,34 +8,33 @@
 }
 
 .App__nav {
-  /* mid section */
   background-color: #190061;
   color: lightgray;
   overflow: auto;
 }
+
 .App__header {
   background-color: red;
   color: blue;
   font-family: var(--custom-font);
-  /* padding-right: 10%; */
   padding-top: 32px;
-  /* display: flex;
-  padding: 5px 10px;
-  justify-content: center;
-  align-items: baseline; */
 }
+
 .App__header h1 {
   display: flex;
   justify-content: center;
 }
+
 .App__header nav {
   display: flex;
   justify-content: center;
 }
+
 .App__header a {
   color: lightpink;
   padding: 5px 10px 5px 10px;
 }
+
 .App__main {
   background-color: #240090;
   /* bottom */

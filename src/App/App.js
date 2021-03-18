@@ -157,11 +157,11 @@ class App extends Component {
                   </Router>
               </nav>
 
-              <nav className="App__landing" style={{ backgroundImage: `url("https://i.imgur.com/cVXTiZ8.png")` }}>
+              <nav className="App__landing" style={{ backgroundImage: `url("https://i.imgur.com/cVXTiZ8.png")`}}>
                 {this.renderAppLanding()}
               </nav>
 
-              <nav className="App__nav"  style={{ backgroundImage: `url("https://i.imgur.com/Waz7kvK.png")` }}>
+              <nav className="App__nav"  style={{ backgroundImage: `url("https://i.imgur.com/403yU7G.png")`, color: `red`}}>
                 {this.renderNavRoutes()}
               </nav>
 
@@ -182,43 +182,3 @@ export default App;
 
 
 
-
-
-// return (
-//   <ApiContext.Provider value={value}>
-//   <div className="App">
-//     <nav className="App__nav">
-//       <Router>
-//         <NavigationBar />
-//       </Router>
-//     <header className="App__header">
-//     <h1>
-//         <Link to="/home">TrackYourSearch</Link>{" "}
-//         </h1>
-//       <nav>
-//         <h2>
-//         <Link to="/home">Home</Link>
-//         </h2>
-//         <h2>
-//         <Link to="/home/add-week">Add Week</Link>
-//         </h2>
-//         <h2>
-//         <Link to="/home/add-job">Add Job</Link>
-//         </h2>
-//       </nav>
-//     </header>
-//     </nav>
-
-//       <nav className="App__landing">
-//           {this.renderAppLanding()}
-//       </nav>
-
-//       <nav className="App__nav">
-//           {this.renderNavRoutes()}
-//       </nav>
-
-//       <main className="App__main">
-//           {this.renderMainRoutes()}
-//       </main>
-//   </div>
-//   </ApiContext.Provider>

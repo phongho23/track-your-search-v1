@@ -5,7 +5,6 @@ import { format } from 'date-fns'
 import './Job.css'
 import ApiContext from '../ApiContext'
 import config from '../config'
-// import { render } from '@testing-library/react'
 
 export default class Job extends React.Component {
   static defaultProps = {
@@ -23,14 +22,8 @@ export default class Job extends React.Component {
         'content-type': 'application/json'
       },
     })
-      // .then(res => {
-      //   if (!res.ok)
-      //     return res.json().then(e => Promise.reject(e))
-      //   return res.json()
-      // })
       .then(() => {
         this.context.deleteJob(jobId)
-        // allow parent to perform extra behaviour
         this.props.onDeleteJob(jobId)
       })
       .catch(error => {
