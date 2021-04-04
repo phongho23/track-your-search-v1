@@ -157,15 +157,16 @@ class App extends Component {
                   </Router>
               </nav>
 
-              <nav className="App__landing" style={{ backgroundImage: `url("https://i.imgur.com/cVXTiZ8.png")`}}>
+              <nav className="App__landing">
                 {this.renderAppLanding()}
               </nav>
 
-              <nav className="App__nav"  style={{ backgroundImage: `url("https://i.imgur.com/403yU7G.png")`, color: `red`}}>
+              
+              <nav className="App__nav">
                 {this.renderNavRoutes()}
               </nav>
 
-              <main className="App__main" style={{ backgroundImage: `url("https://i.imgur.com/ziDD8Wt.png")` }}>
+              <main className="App__main">
                 {this.renderMainRoutes()}
               </main>
 
@@ -182,3 +183,25 @@ export default App;
 
 
 
+{/* <div className="App" >
+
+<nav className="App__nav" >
+    <Router>
+      <NavigationBar />
+    </Router>
+</nav>
+
+<nav className="App__landing" style={{ backgroundImage: `url("https://i.imgur.com/cVXTiZ8.png")`}}>
+  {this.renderAppLanding()}
+</nav>
+
+
+<nav className="App__nav"  style={{ backgroundImage: `url("https://i.imgur.com/403yU7G.png")`}}>
+  {this.renderNavRoutes()}
+</nav>
+
+<main className="App__main" style={{ backgroundImage: `url("https://i.imgur.com/ziDD8Wt.png")` }}>
+  {this.renderMainRoutes()}
+</main>
+
+</div> */}

@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddJob component renders the complete form 1`] = `
+<section
+  className="AddJob"
+>
+  <AppForm
+    className="AddJobItems"
+    onSubmit={[Function]}
+  >
+    <div
+      className="field"
+    >
+      <label
+        htmlFor="job-name-input"
+      >
+        Job Title
+      </label>
+      <br />
+      <input
+        id="job-name-input"
+        name="job-name"
+        type="text"
+      />
+    </div>
+    <div
+      className="field"
+    >
+      <label
+        htmlFor="company-name-input"
+      >
+        Company Name
+      </label>
+      <br />
+      <input
+        id="company-name-input"
+        name="company-name"
+        type="text"
+      />
+    </div>
+    <div
+      className="field"
+    >
+      <label
+        htmlFor="job-week-select"
+      >
+        Week
+      </label>
+      <br />
+      <select
+        id="job-week-select"
+        name="job-week-id"
+      >
+        <option
+          value={null}
+        >
+          ...
+        </option>
+      </select>
+    </div>
+    <div
+      className="field"
+    >
+      <label
+        htmlFor="job-listing-input"
+      >
+        Interview Details
+      </label>
+      <br />
+      <input
+        id="job-listing-input"
+        name="job-listing-name"
+        type="text"
+      />
+    </div>
+    <div
+      className="field"
+    >
+      <label
+        htmlFor="job-url-input"
+      >
+        Job Listing URL / Method of Application
+      </label>
+      <br />
+      <input
+        id="job-url-input"
+        name="job-url-name"
+        type="text"
+      />
+    </div>
+    <div
+      className="field"
+    >
+      <label
+        htmlFor="job-desc-input"
+      >
+        Job Description / Relevant Notes
+      </label>
+      <br />
+      <input
+        id="job-desc-input"
+        name="job-content"
+        type="text"
+      />
+    </div>
+    <div
+      className="field"
+    >
+      <label
+        htmlFor="job-rating-select"
+      >
+        Opportunity Rating
+      </label>
+      <br />
+      <select
+        id="job-rating-select"
+        name="job-rating-selected"
+        type="integer"
+      >
+        <option
+          value={null}
+        >
+          ...
+        </option>
+        <option
+          value={1}
+        >
+          1
+        </option>
+        <option
+          value={2}
+        >
+          2
+        </option>
+        <option
+          value={3}
+        >
+          3
+        </option>
+        <option
+          value={4}
+        >
+          4
+        </option>
+        <option
+          value={5}
+        >
+          5
+        </option>
+      </select>
+    </div>
+    <br />
+    <div
+      className="buttons"
+    >
+      <button
+        type="submit"
+      >
+        Add Job
+      </button>
+    </div>
+  </AppForm>
+</section>
+`;

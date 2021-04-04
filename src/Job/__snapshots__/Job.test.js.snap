@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Job component renders a .Job by default 1`] = `
+<div
+  className="Job"
+  style={
+    Object {
+      "height": "150px",
+      "margin": "10px",
+      "position": "relative",
+      "width": "150px",
+    }
+  }
+>
+  <h2
+    className="Job__title"
+  >
+    <Link
+      to="/home/job/undefined"
+    />
+  </h2>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "color": "red",
+        "fontSize": "20px",
+        "position": "absolute",
+        "right": "0",
+        "top": "0",
+      }
+    }
+    type="button"
+  >
+     
+    X
+  </button>
+  <div
+    className="Job__dates"
+  >
+    <div
+      className="Job__dates-modified"
+    >
+      Modified
+       
+      <span
+        className="Date"
+      >
+        Invalid Date
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Job component renders the Job given props 1`] = `
+<div
+  className="Job"
+  style={
+    Object {
+      "height": "150px",
+      "margin": "10px",
+      "position": "relative",
+      "width": "150px",
+    }
+  }
+>
+  <h2
+    className="Job__title"
+  >
+    <Link
+      to="/home/job/1"
+    />
+  </h2>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "color": "red",
+        "fontSize": "20px",
+        "position": "absolute",
+        "right": "0",
+        "top": "0",
+      }
+    }
+    type="button"
+  >
+     
+    X
+  </button>
+  <div
+    className="Job__dates"
+  >
+    <div
+      className="Job__dates-modified"
+    >
+      Modified
+       
+      <span
+        className="Date"
+      >
+        2nd Jan 2021
+      </span>
+    </div>
+  </div>
+</div>
+`;

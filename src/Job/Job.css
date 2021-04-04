@@ -1,6 +1,6 @@
 .Job {
     --Job-height: 88px;
-    background-color: #282828;
+    background-color: #505256;
     color: white;
     height: var(--Job-height);
     margin-bottom: 8px;
@@ -24,7 +24,7 @@
     width: calc(var(--Job-height));
   }
   .Job__delete:hover {
-    background-color: #bd0909;
+    background-color: #505256;
     color: red;
     cursor: pointer;
     font-weight: bold;
@@ -43,7 +43,7 @@
     text-decoration: none;
   }
   .Job__title a:hover {
-    color: yellow;
+    color: #DB7676;
   }
   
   .Job__dates {

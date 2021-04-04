@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddWeek component renders the complete form 1`] = `
+<section
+  className="AddWeek"
+>
+  <h2>
+    Add a Week
+  </h2>
+  <AppForm
+    onSubmit={[Function]}
+  >
+    <div
+      className="AddWeekItems"
+    >
+      <div
+        className="field"
+      >
+        <label
+          htmlFor="week-name-input"
+        >
+          Which week of your job search is this?
+        </label>
+        <br />
+        <input
+          id="week-name-input"
+          name="week-name"
+          type="text"
+        />
+      </div>
+      <div
+        className="buttons"
+      >
+        <button
+          type="submit"
+        >
+          Add Week
+        </button>
+      </div>
+    </div>
+  </AppForm>
+</section>
+`;

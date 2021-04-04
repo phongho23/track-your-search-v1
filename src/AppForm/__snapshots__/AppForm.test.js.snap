@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppForm component renders a form.AppForm by default 1`] = `
+<form
+  action="#"
+  className="AppForm-Form "
+/>
+`;
+
+exports[`AppForm component renders the AppForm given props 1`] = `
+<form
+  action="#"
+  className="AppForm-Form test-class-name"
+  data-other="test-other-prop"
+>
+  <p>
+    test children
+  </p>
+</form>
+`;

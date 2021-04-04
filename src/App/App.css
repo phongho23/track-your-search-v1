@@ -4,11 +4,11 @@
     sans-serif;
   display: block;
   min-height: 100vh;
-  background-color: #190061;
+  background-color: #DB3535;
 }
 
 .App__nav {
-  background-color: #190061;
+  background-color: #DB3535;
   color: lightgray;
   overflow: auto;
 }
@@ -36,7 +36,7 @@
 }
 
 .App__main {
-  background-color: #240090;
+  background-color: #DB7676;
   /* bottom */
   height: calc(100vh - 120px);
   overflow: auto;

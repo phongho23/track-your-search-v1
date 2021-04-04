@@ -3,11 +3,11 @@ import { Nav, Navbar, Form, FormControl } from 'react-bootstrap';
 import styled from 'styled-components';
 
 const Styles = styled.div
-  `.navbar { background-color: #282828; }
+  `.navbar { background-color: #5C1616 ; }
   a, .navbar-nav, .navbar-light .nav-link {
     color: white;
     font-weight: bold;
-    &:hover { color: white; }
+    &:hover { color: #DB7676; }
   }
   .navbar-brand {
     font-size: 1.4em;
@@ -26,7 +26,7 @@ const Styles = styled.div
 
 export const NavigationBar = () => (
   <Styles>
-    <Navbar expand="lg" style={{ backgroundImage: `url("https://i.imgur.com/mULMwTn.jpg")` }}>
+    <Navbar expand="lg">
       <Navbar.Brand href="/home">TrackYourSearch</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav"/>
       <Navbar.Collapse id="basic-navbar-nav">
@@ -40,3 +40,4 @@ export const NavigationBar = () => (
   </Styles>
 )
 
+{/* <Navbar expand="lg" style={{ backgroundImage: `url("https://i.imgur.com/mULMwTn.jpg")` }}> */}

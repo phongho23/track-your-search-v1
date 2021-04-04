@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JoblistNav component renders a .JoblistNav by default 1`] = `
+<div
+  className="JoblistNav"
+>
+  <div
+    className="JoblistNav__button-wrapper"
+  >
+    <NavCircleButton
+      className="JoblistNav__add-week-button"
+      tag={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "propTypes": Object {
+            "innerRef": [Function],
+            "onClick": [Function],
+            "replace": [Function],
+            "target": [Function],
+            "to": [Function],
+          },
+          "render": [Function],
+        }
+      }
+      to="/home/add-week"
+      type="button"
+    >
+      <FontAwesomeIcon
+        border={false}
+        className=""
+        fixedWidth={false}
+        flip={null}
+        icon="plus"
+        inverse={false}
+        listItem={false}
+        mask={null}
+        pull={null}
+        pulse={false}
+        rotation={null}
+        size={null}
+        spin={false}
+        swapOpacity={false}
+        symbol={false}
+        title=""
+        transform={null}
+      />
+      <br />
+      Week
+    </NavCircleButton>
+  </div>
+  <ul
+    className="JoblistNav__list"
+  />
+</div>
+`;

@@ -13,7 +13,7 @@
     margin: 0 auto 20px;
   }
   .JoblistNav__add-week-button:hover {
-    background-color: blue;
+    background-color: #505256;
     color: white;
   }
   
@@ -30,7 +30,7 @@
     text-align: center;
   }
   .JoblistNav__week-link:hover {
-    color: yellow;
+    color: #DB7676;
     cursor: pointer;
   }
   .JoblistNav__week-link.active {

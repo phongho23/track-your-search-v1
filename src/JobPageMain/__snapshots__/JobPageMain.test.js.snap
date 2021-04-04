@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JobPageMain component renders a .JobPageMain by default 1`] = `
+<section
+  className="JobPageMain"
+>
+  <Job
+    onDeleteJob={[Function]}
+  />
+  <div
+    className="jobInfo"
+  >
+    <div
+      className="JobPageMain__jobtitle"
+    >
+      <b>
+        <p>
+          Job Title:
+        </p>
+      </b>
+    </div>
+    <div
+      className="JobPageMain__companyname"
+    >
+      <b>
+        <p>
+          Company Name:
+        </p>
+      </b>
+    </div>
+    <div
+      className="JobPageMain__postedurl"
+    >
+      <b>
+        <p>
+          Job Listing URL/Info:
+        </p>
+      </b>
+    </div>
+    <div
+      className="JobPageMain__interview"
+    >
+      <b>
+        <p>
+          Interview Details:
+        </p>
+      </b>
+    </div>
+    <div
+      className="JobPageMain__jobrating"
+    >
+      <b>
+        <p>
+          Opportunity Rating:
+        </p>
+      </b>
+    </div>
+    <div
+      className="JobPageMain__content"
+    >
+      <b>
+        <p>
+          Job Description:
+        </p>
+      </b>
+      <p
+        key="0"
+      />
+    </div>
+  </div>
+</section>
+`;

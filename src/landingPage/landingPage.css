@@ -2,7 +2,6 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     font-weight: bold;
-    background-color: #252525;
     border-radius: 10px;
     margin: auto ;
     width: 50%;
@@ -12,7 +11,7 @@
 
 .landingPageButton {
         color: white;
-        background-color: #252525;
+        background-color: #8F2222;
         border:cornsilk;
         border-width: 100px;
         margin: auto;
@@ -28,6 +27,6 @@
   }
 
 .landingPageButton:hover {
-    background-color: blue;
+    background-color: #505256;
     color: white;
 }
