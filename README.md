@@ -19,11 +19,13 @@ TrackYourSearch was created to assist you during your job search.  It is an inte
 Built with two separate parts that are integrated in the front end of the app.  
 
 Front End - React
+
 https://track-your-search-v1-phongho23.vercel.app
 
 https://github.com/phongho23/track-your-search-v1
 
 Backend - Node
+
 https://github.com/phongho23/track-your-search-db
 
 ## Technologies Applied
